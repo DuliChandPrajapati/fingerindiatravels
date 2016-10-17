@@ -1,0 +1,263 @@
+/*    Default Layout: 992px. 
+    Gutters: 24px.
+    Outer margins: 48px.
+    Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+/*    Tablet Layout: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 29, ../../app/styles/responsive.scss */
+  .navigation .navbar-nav > li > a {
+    padding: 38px 20px;
+  }
+
+  /* line 33, ../../app/styles/responsive.scss */
+  .animated-nav .navigation .navbar-nav > li > a {
+    padding: 30px 20px;
+  }
+
+  /* line 37, ../../app/styles/responsive.scss */
+  #service .media {
+    padding-left: 0;
+  }
+
+  /* line 41, ../../app/styles/responsive.scss */
+  .mobile-device .black {
+    left: 0px;
+  }
+
+  /* line 45, ../../app/styles/responsive.scss */
+  .mobile-device .white {
+    left: -98px;
+  }
+
+  /* line 49, ../../app/styles/responsive.scss */
+  figcaption.mask {
+    padding: 10px;
+  }
+
+  /* line 53, ../../app/styles/responsive.scss */
+  figcaption.mask h3 {
+    font-size: 15px;
+  }
+
+  /* line 57, ../../app/styles/responsive.scss */
+  figcaption.mask span {
+    font-size: 12px;
+  }
+
+  /* line 61, ../../app/styles/responsive.scss */
+  .plus {
+    height: 30%;
+    width: 30%;
+    margin-left: -15%;
+  }
+
+  /* line 67, ../../app/styles/responsive.scss */
+  .portfolio-item:hover .plus {
+    top: 40%;
+  }
+
+  /* line 71, ../../app/styles/responsive.scss */
+  .fact-item {
+    padding-bottom: 30px;
+  }
+
+  /* line 75, ../../app/styles/responsive.scss */
+  .subtitle {
+    padding-top: 50px;
+  }
+
+  /* line 79, ../../app/styles/responsive.scss */
+  .pricing-table {
+    padding-bottom: 50px;
+  }
+
+  /* line 83, ../../app/styles/responsive.scss */
+  figure, p {
+    padding-top: 30px;
+  }
+}
+/*    Mobile Layout: 320px.
+    Gutters: 24px.
+    Outer margins: 34px.
+    Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+  /* line 106, ../../app/styles/responsive.scss */
+  .navbar-toggle {
+    border: 1px solid rgba(15, 116, 143, 0.8);
+    margin-top: 37px;
+  }
+
+  /* line 111, ../../app/styles/responsive.scss */
+  .navbar-toggle .icon-bar {
+    background-color: rgba(15, 116, 143, 0.8);
+  }
+
+  /* line 115, ../../app/styles/responsive.scss */
+  .animated-nav .navbar-toggle {
+    border: 1px solid #fff;
+    margin-top: 21px;
+  }
+
+  /* line 120, ../../app/styles/responsive.scss */
+  .animated-nav .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+
+  /* line 124, ../../app/styles/responsive.scss */
+  .animated-nav .navigation .navbar-nav > li > a,
+  .navigation .navbar-nav > li > a {
+    padding: 15px 25px;
+  }
+
+  /* line 129, ../../app/styles/responsive.scss */
+  .navigation .navbar-nav > li > a {
+    background-color: #00c7fc;
+  }
+
+  /* line 133, ../../app/styles/responsive.scss */
+  .navigation .navbar-nav > li > a:hover {
+    background-color: #00c7fc;
+  }
+
+  /* line 137, ../../app/styles/responsive.scss */
+  .navigation .navbar-nav > li.current > a {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+
+  /* line 143, ../../app/styles/responsive.scss */
+  .carousel-caption > div {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  /* line 149, ../../app/styles/responsive.scss */
+  #home-carousel .carousel-inner h2 {
+    font-size: 20px;
+    line-height: 31px;
+  }
+
+  /* line 154, ../../app/styles/responsive.scss */
+  .carousel-caption {
+    right: 0;
+  }
+
+  /* line 158, ../../app/styles/responsive.scss */
+  .section-title {
+    width: 100%;
+  }
+
+  /* line 162, ../../app/styles/responsive.scss */
+  #service .media {
+    padding-left: 0px;
+  }
+
+  /* line 166, ../../app/styles/responsive.scss */
+  #service .media > .pull-left {
+    margin-right: 15px;
+  }
+
+  /* line 170, ../../app/styles/responsive.scss */
+  .mobile-device img {
+    float: none;
+  }
+
+  /* line 174, ../../app/styles/responsive.scss */
+  .mobile-device .black {
+    left: 0;
+  }
+
+  /* line 178, ../../app/styles/responsive.scss */
+  .mobile-device .white {
+    bottom: 336px;
+    left: 83px;
+  }
+
+  /* line 183, ../../app/styles/responsive.scss */
+  #service-bottom {
+    padding-bottom: 100%;
+  }
+
+  /* line 187, ../../app/styles/responsive.scss */
+  .service-features {
+    padding: 40px 0 0 20px;
+    width: 100%;
+    top: 60%;
+    height: 319px;
+  }
+
+  /* line 194, ../../app/styles/responsive.scss */
+  .service-features h3 {
+    margin-bottom: 0px;
+  }
+
+  /* line 198, ../../app/styles/responsive.scss */
+  .portfolio-item {
+    width: 100%;
+  }
+
+  /* line 202, ../../app/styles/responsive.scss */
+  .tst-content {
+    margin: 10px 0 0 125px;
+  }
+
+  /* line 206, ../../app/styles/responsive.scss */
+  .subtitle {
+    padding-top: 50px;
+  }
+
+  /* line 210, ../../app/styles/responsive.scss */
+  .call-to-action p {
+    font-size: 14px;
+  }
+
+  /* line 214, ../../app/styles/responsive.scss */
+  .pricing-table {
+    padding-bottom: 50px;
+  }
+
+  /* line 218, ../../app/styles/responsive.scss */
+  figure, p {
+    padding-top: 30px;
+  }
+
+  /* line 222, ../../app/styles/responsive.scss */
+  .special-plan p {
+    line-height: 30px;
+  }
+
+  /* line 226, ../../app/styles/responsive.scss */
+  .contact-details {
+    margin-bottom: 0px;
+  }
+
+  /* line 230, ../../app/styles/responsive.scss */
+  .contact-details > span {
+    padding-top: 100px;
+  }
+}
+/*    Wide Mobile Layout: 480px.
+    Gutters: 24px.
+    Outer margins: 22px.
+    Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+/*  Retina media query.
+  Overrides styles for devices with a 
+  device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+/*# sourceMappingURL=responsive.css.map */
