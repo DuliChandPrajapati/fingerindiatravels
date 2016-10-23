@@ -1,8 +1,16 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-@import "style.scss";
 // endbower
+@import "style.scss";
+
+@import "font-awesome.min.scss";
+@import "owl.carousel.scss";
+
+@import "jquery.fancybox.scss";
+@import "animate.scss";
+
+@import "responsive.scss";
 
 
 .browsehappy {
